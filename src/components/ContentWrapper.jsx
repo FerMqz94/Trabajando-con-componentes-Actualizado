@@ -58,6 +58,8 @@ function ContentWrapper() {
 
           <ContentRowTop data={metrics} />
 
+        <div className="border p-1 m-3">
+
           <table class="table table-bordered m-4">
             <TableHead items={dataTableHead} />
 
@@ -70,7 +72,7 @@ function ContentWrapper() {
 
             <TableHead items={dataTableHead} />
           </table>
-
+          </div>
           <Footer />
         </div>
       </div>
